@@ -1,0 +1,141 @@
+.header__navigation {
+  background: #050d7d;
+  padding: 42px 0 50px 0;
+}
+
+.menu__list-link,
+.menu__phone {
+  color: #ffffff;
+}
+
+.menu__list-item {
+  position: relative;
+  top: 0;
+  left: 0;
+  margin-left: 58px;
+  &::after {
+    content: " ";
+    position: absolute;
+    top: 15%;
+    right: -5px;
+    width: 4px;
+    height: 16px;
+    background-image: url(../img/svg/right-key.svg);
+    background-repeat: no-repeat;
+    object-fit: cover;
+  }
+
+  &::before {
+    content: " ";
+    position: absolute;
+    top: 15%;
+    left: -5px;
+    width: 4px;
+    height: 16px;
+    background-image: url(../img/svg/left-key.svg);
+    background-repeat: no-repeat;
+    object-fit: cover;
+  }
+}
+
+.menu__list-item:hover .menu__list-link {
+  transition: ease-in 0.5s;
+  color: red;
+}
+
+.menu__list-item:active .menu__list-link {
+  transition: ease-in 0.2s;
+  color: yellow;
+}
+.menu__phone {
+  &:hover {
+    transition: ease-in 0.5s;
+    color: red;
+  }
+
+  &:active {
+    transition: ease-in 0.2s;
+    color: yellow;
+  }
+}
+
+.header__alert {
+  border-bottom: solid 4px #010db6;
+  text-align: center;
+  color: red;
+  padding: 18px 0;
+  font-size: 32px;
+}
+//оповещение
+.--alert-red-white {
+  background-color: red;
+  color: white;
+  border: none;
+}
+
+.header__info {
+  width: 819px;
+  padding: 35px 0 25px;
+}
+.header__info-company {
+  display: block;
+  margin-top: 27px;
+}
+
+.header__image {
+  width: 860px;
+  height: 607px;
+}
+
+.header__contact {
+  border-width: 2px 0px 2px 0px;
+  border-style: solid;
+  border-color: #010db6;
+  padding: 15px 0;
+}
+
+.header__contact-address {
+    width: 419px;
+    &> address {
+        color:#010DB6;
+        font-weight: 400;
+        font-size: 32px;
+        display: block;
+        margin-bottom: 17px;
+    }
+}
+
+.phone {
+    color: #010DB6;
+}
+
+.sinngup {
+    font-size: 24px;
+    padding: 20px 51px;
+
+    &:hover {
+        transition: ease-in 0.5s;
+        color: white;
+        background: #010DB6;
+    }
+    
+    &:active {
+        transition: ease-in 0.2s;
+        color: yellow;
+    }
+}
+
+.header__contact-time {
+    width: 300px;
+}
+
+.time__title {
+    margin-bottom: 17px;
+    display: block;
+}
+
+
+
+ 
+
+
