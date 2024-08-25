@@ -1,0 +1,79 @@
+.accreditation {
+    background: #F3ECEC;
+    padding: 67px 0;
+}
+
+.accreditation__list {
+    margin-top: 71px;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    height: 100%;
+    gap: 120px;
+    
+}
+
+.accreditation__list-card {
+    width: 460px;
+    height: 328px;
+    position: relative;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    
+    
+    
+
+    &::after {
+        content: " ";
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 456px;
+        height: 86px;
+        background-image: url(../img/svg/bigkeyl.svg);
+        background-repeat: no-repeat;
+        object-fit: cover;
+      }
+    
+      &::before {
+        content: " ";
+        position: absolute;
+        top: 236px;
+        left: 0;
+        width: 456px;
+        height: 84px;
+        background-image: url(../img/svg/bigkeyr.svg);
+        background-repeat: no-repeat;
+        object-fit: cover;
+      }
+        
+}
+
+.accreditation__card {
+    padding: 33px 50px;
+}
+
+.accreditation__card-wrraper {
+    margin-top: 26px;
+}
+
+.accreditation__card-price {
+    display: block;
+    margin-left: 65px;
+}
+
+.accreditation__card-link {
+    display: block;
+    margin: 15% auto;
+    text-align: center;
+    color: #010db6;
+
+    &:hover {
+        color: red;
+    }
+
+    &:active {
+        font-weight: 700;
+    }
+}

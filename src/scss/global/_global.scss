@@ -103,8 +103,18 @@ address {
   font-size: 32px;
 }
 
+.--inter-lite-32 {
+  font-size: 32px;
+  font-weight: 300;
+}
+
 .--inter-regular-20 {
   font-size: 20px;
+  font-weight: 400;
+}
+
+.--inter-regular-24 {
+  font-size: 24px;
   font-weight: 400;
 }
 
@@ -113,9 +123,14 @@ address {
   font-weight: 400;
 }
 
-.--inter-regular-24 {
-  font-size: 24px;
+.--inter-regular-36 {
+  font-size: 36px;
   font-weight: 400;
+}
+
+.--inter-bold-32 {
+  font-weight: 700;
+  font-size: 32px;
 }
 
 .--white-clor {
