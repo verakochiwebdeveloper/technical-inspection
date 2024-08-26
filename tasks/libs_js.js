@@ -1,4 +1,4 @@
-const plugins = [];
+const plugins = ['/swiper/swiper-bundle.min.js'];
 const {
 	src,
 	dest
