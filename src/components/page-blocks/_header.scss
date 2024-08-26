@@ -73,8 +73,16 @@
   border: none;
 }
 
+.--flex-wrapp {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  height: 100%;
+  justify-content: center;
+}
+
 .header__info {
-  width: 819px;
+  width: 600px;
   padding: 35px 0 25px;
 }
 .header__info-company {
@@ -94,48 +102,56 @@
   padding: 15px 0;
 }
 
+.header__contact-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @media (max-width: 1300px) {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 25px 0;
+  }
+}
+
 .header__contact-address {
-    width: 419px;
-    &> address {
-        color:#010DB6;
-        font-weight: 400;
-        font-size: 32px;
-        display: block;
-        margin-bottom: 17px;
-    }
+  width: 419px;
+  & > address {
+    color: #010db6;
+    font-weight: 400;
+    font-size: 32px;
+    margin-bottom: 17px;
+  }
 }
 
 .phone {
-    color: #010DB6;
+  color: #010db6;
 }
 
 .sinngup {
-    font-size: 24px;
-    padding: 20px 51px;
+  font-size: 24px;
+  padding: 20px 51px;
 
-    &:hover {
-        transition: ease-in 0.5s;
-        color: white;
-        background: #010DB6;
-    }
-    
-    &:active {
-        transition: ease-in 0.2s;
-        color: yellow;
-    }
+  height: 68px;
+
+  &:hover {
+    transition: ease-in 0.5s;
+    color: white;
+    background: #010db6;
+  }
+
+  &:active {
+    transition: ease-in 0.2s;
+    color: yellow;
+  }
 }
 
 .header__contact-time {
-    width: 300px;
+  width: 300px;
 }
 
 .time__title {
-    margin-bottom: 17px;
-    display: block;
+  margin-bottom: 17px;
+  display: block;
 }
-
-
-
- 
-
-
