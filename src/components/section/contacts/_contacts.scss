@@ -1,0 +1,49 @@
+.contacts {
+  margin-top: 176px;
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 100%;
+    gap: 20px;
+    margin-bottom: 30px;
+  }
+  &__about {
+    width: 350px;
+    &-text {
+      display: block;
+      margin-top: 20px;
+    }
+  }
+  &__links {
+    width: 350px;
+    &-tel {
+      color: #010db6;
+      &:hover {
+        text-decoration: underline;
+      }
+      &:active {
+        color: red;
+      }
+    }
+    &-email {
+      color: #010db6;
+      &:hover {
+        text-decoration: underline;
+      }
+      &:active {
+        color: red;
+      }
+    }
+  }
+}
+
+.contacts__work-time {
+    margin-top: 20px;
+}
+
+.--inter-bold-24 {
+  font-weight: 600;
+  font-size: 24px;
+}

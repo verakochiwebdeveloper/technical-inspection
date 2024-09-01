@@ -1,0 +1,38 @@
+.footer {
+  background: #010db6;
+  padding: 40px;
+  margin-top: 30px;
+  &__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    justify-content: space-between;
+    
+    gap: 20px;
+  }
+}
+
+.design_and_development,
+.policy {
+  color: #ffff;
+}
+
+.design_and_development {
+    display: flex;
+    gap: 0 20px;
+}
+
+.design_contacts-link, .development_contacts-link {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #fff;
+    padding-right: 75px;
+}
